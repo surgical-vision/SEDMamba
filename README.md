@@ -1,7 +1,7 @@
 # SEDMamba: Enhancing Selective State Space Modelling with Bottleneck Mechanism and Fine-to-Coarse Temporal Fusion for Efficient Error Detection in Robot-Assisted Surgery
 This repository provides the official PyTorch implementation of the following paper:
 > [**SEDMamba: Enhancing Selective State Space Modelling with Bottleneck Mechanism and Fine-to-Coarse Temporal Fusion for Efficient Error Detection in Robot-Assisted Surgery**](https://doi.org/10.1109/LRA.2024.3505818)<br>
-> [Jialang Xu](https://www.researchgate.net/profile/Jialang-Xu), Nazir Sirajudeen, Matthew Boal, Nader Francis, Danail Stoyanov, Evangelos B. Mazomenos
+> [Jialang Xu](https://www.linkedin.com/in/jialang-xu-778952257/), Nazir Sirajudeen, Matthew Boal, Nader Francis, Danail Stoyanov, Evangelos B. Mazomenos
 
 [2024-11-29] Release the SEDMamba code.
 
