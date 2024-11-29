@@ -60,7 +60,7 @@ python visualization.py -lp ./exp_log/0.0001/Inference_SEDMamba -rp ./exp_log/0.
 ```
 python train.py -exp SEDMamba -dp SEDMamba/data -e 200 -l 1e-4 -cls 1 -gpu_id cuda:0 -w 4 -s 0
 ```
-- `-e`: epoches
+- `-e`: epochs
 - `-l`: learning rate
 - `-s`: random seed
 
