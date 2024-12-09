@@ -26,7 +26,7 @@ git clone https://github.com/wzjialang/SEDMamba.git
 2. Download error annotation dataset [here](https://doi.org/10.5522/04/27992702) and unzip it under `./data` folder:
 ```bash
 cd SEDMamba
-unzip unzip error_annotation_SAR-RARP50.zip -d ./data
+unzip error_annotation_SAR-RARP50.zip -d ./data
 ```
 
 The structure of data folders:
