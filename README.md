@@ -68,16 +68,17 @@ python train.py -exp SEDMamba -dp SEDMamba/data -e 200 -l 1e-4 -cls 1 -gpu_id cu
 We sincerely appreciate the authors for releasing the following valuable resources: [UVA-DSA/ExecErr_Detect_Siamese](https://github.com/UVA-DSA/ExecErr_Detect_Siamese), [TeCNO](https://github.com/tobiascz/TeCNO), [MS-TCN](https://github.com/yabufarha/ms-tcn), [ASFormer](https://github.com/ChinaYi/ASFormer), [MS-TCN++](https://github.com/sj-li/MS-TCN2), [Mamba](https://github.com/state-spaces/mamba), [Vim](https://github.com/kyegomez/VisionMamba).
 
 ## Citation
-If you find this project useful, please consider citing:
+If you use the error annotation dataset or find this project useful, please citing:
 ```
 @ARTICLE{10766660,
   author={Xu, Jialang and Sirajudeen, Nazir and Boal, Matthew and Francis, Nader and Stoyanov, Danail and Mazomenos, Evangelos B.},
   journal={IEEE Robotics and Automation Letters}, 
-  title={SEDMamba: Enhancing Selective State Space Modelling with Bottleneck Mechanism and Fine-to-Coarse Temporal Fusion for Efficient Error Detection in Robot-Assisted Surgery}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-8},
+  title={SEDMamba: Enhancing Selective State Space Modelling With Bottleneck Mechanism and Fine-to-Coarse Temporal Fusion for Efficient Error Detection in Robot-Assisted Surgery}, 
+  year={2025},
+  volume={10},
+  number={1},
+  pages={232-239},
+  keywords={Needles;Videos;Annotations;Computational modeling;Instruments;Analytical models;Training;Reliability;Long short term memory;Location awareness;Computer vision for medical robotics;surgical robotics: laparoscopy;data sets for robotic vision;surgical error detection;selective state space model},
   doi={10.1109/LRA.2024.3505818}}
 ```
 
