@@ -68,7 +68,7 @@ python train.py -exp SEDMamba -dp SEDMamba/data -e 200 -l 1e-4 -cls 1 -gpu_id cu
 We sincerely appreciate the authors for releasing the following valuable resources: [UVA-DSA/ExecErr_Detect_Siamese](https://github.com/UVA-DSA/ExecErr_Detect_Siamese), [TeCNO](https://github.com/tobiascz/TeCNO), [MS-TCN](https://github.com/yabufarha/ms-tcn), [ASFormer](https://github.com/ChinaYi/ASFormer), [MS-TCN++](https://github.com/sj-li/MS-TCN2), [Mamba](https://github.com/state-spaces/mamba), [Vim](https://github.com/kyegomez/VisionMamba).
 
 ## Citation
-If you use the error annotation dataset or find this project useful, please citing:
+If you use the error annotation dataset or find this project useful, please cite:
 ```
 @ARTICLE{10766660,
   author={Xu, Jialang and Sirajudeen, Nazir and Boal, Matthew and Francis, Nader and Stoyanov, Danail and Mazomenos, Evangelos B.},
