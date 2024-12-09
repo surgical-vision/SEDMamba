@@ -27,8 +27,6 @@ class CustomVideoDataset(Dataset):
             video_data = pickle.load(f)
         features = video_data["feature"].astype("float32")
         e_labels = video_data["error_GT"]
-        # Convert error labels to binary format (0 or 1)
-        e_labels = np.where(e_labels == "0", 0, 1)
         video_length = len(e_labels)
 
         if self.transform:
