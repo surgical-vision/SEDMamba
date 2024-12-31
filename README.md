@@ -90,11 +90,10 @@ python visualization.py -lp ./exp_log/0.0001/Inference_SEDMamba -rp ./exp_log/0.
 
 #### Train SEDMamba model:
 ```bash
-python train.py -exp SEDMamba -dp ./data -e 200 -l 1e-4 -cls 1 -gpu_id cuda:0 -w 4 -s 2
+python train.py -exp SEDMamba -dp ./data -e 200 -l 1e-4 -cls 1 -gpu_id cuda:0 -w 4
 ```
 - `-e`: epochs
 - `-l`: learning rate
-- `-s`: random seed
 
 ## Acknowledge
 We sincerely appreciate the authors for releasing the following valuable resources: [surgical-vision/SAR_RARP50-evaluation](https://github.com/surgical-vision/SAR_RARP50-evaluation), [UVA-DSA/ExecErr_Detect_Siamese](https://github.com/UVA-DSA/ExecErr_Detect_Siamese), [TeCNO](https://github.com/tobiascz/TeCNO), [MS-TCN](https://github.com/yabufarha/ms-tcn), [ASFormer](https://github.com/ChinaYi/ASFormer), [MS-TCN++](https://github.com/sj-li/MS-TCN2), [Mamba](https://github.com/state-spaces/mamba), [Vim](https://github.com/kyegomez/VisionMamba).
