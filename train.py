@@ -178,7 +178,7 @@ if __name__ == "__main__":
     parser.add_argument("-dp", "--data_path", default="/path/to/your/data", type=str, help="path to data")
     parser.add_argument("-gpu_id", type=str, nargs="?", default="cuda:0", help="device id to run")
     parser.add_argument("-w", "--work", default=4, type=int, help="num of workers to use")
-    parser.add_argument("-s", "--seed", default=3, type=int, help="random seed")
+    parser.add_argument("-s", "--seed", default=2, type=int, help="random seed")
     parser.add_argument("-e", "--epoch", default=200, type=int, help="epochs to train and val")
     parser.add_argument("-l", "--lr", default=1e-4, type=float, help="learning rate for optimizer")
     
